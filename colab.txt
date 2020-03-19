@@ -1,2 +1,4 @@
 1. the link: https://colab.research.google.com
-2. install package: !pip install -q xxx
+2. install package: !pip install -q xxx or !pip install tensorflow==1.6.0
+3  restart colab vm: !kill -9 -1
+4. check colab version: !pip freeze | grep keras
